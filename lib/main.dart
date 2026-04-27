@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tarea1_app/views/home_view.dart';
 import 'views/ejercicio5_view.dart';
 import 'views/ejercicio6_view.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Tareas MVC + Atomic Design'),
+      home: HomePage(),
     );
   }
 }
