@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:tarea1_app/views/home_view.dart';
 import 'views/ejercicio5_view.dart';
 import 'views/ejercicio6_view.dart';
+import 'views/ejercicio8_view.dart';
+import 'views/ejercicio10_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -73,6 +75,26 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               child: const Text('Ejercicio 6: Conversión de gigabytes'),
             ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Ejercicio8Pagina()),
+                );
+                },
+                child: const Text('Ejercicio 8: Cuota de fianza'),
+              ),
+              const SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Ejercicio10Pagina()),
+                  );
+                },
+                child: const Text('Ejercicio 10: Descuento supermercado'),
+              ),
           ],
         ),
       ),

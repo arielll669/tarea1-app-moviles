@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 // import 'ejercicio8_view.darimport 'ejercicio5_view.dart';
 import 'ejercicio5_view.dart';
 import 'ejercicio6_view.dart';
+import 'ejercicio8_view.dart';
 import 'ejercicio9_view.dart';
+import 'ejercicio10_view.dart';
 // import 'ejercicio10_view.dart';
 
 /// Átomos
@@ -77,7 +79,7 @@ class HomePage extends StatelessWidget {
                 text: 'Ejercicio 8: Compañía de Seguros',
                 onPressed: () {
                   
-                  // Navigator.push(context, MaterialPageRoute(builder: (context) => Ejercicio8Pagina()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => Ejercicio8Pagina()));
                 },
               ),
               
@@ -95,7 +97,7 @@ class HomePage extends StatelessWidget {
                 text: 'Ejercicio 10: Descuento Supermercado',
                 onPressed: () {
                   
-                  // Navigator.push(context, MaterialPageRoute(builder: (context) => Ejercicio10Pagina()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => Ejercicio10Pagina()));
                 },
               ),
             ],
